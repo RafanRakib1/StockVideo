@@ -1,3 +1,74 @@
-h1{
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1A0F43;
+  padding: 10px 200px;
+  border-bottom: 4px solid #401E63 ;
+}
+nav div{
+  color: white;
+  font-size: 25px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style-type: none;
+  margin: 10px 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover{
   color: red;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* hero area code start */
+
+header{
+  background-image: url(image/website\ banner.jpg);
+  padding: 200px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchbox-icon-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbox-icon-parent i{
+  color: red;
+  background-color: green;
+  font-size: 25px;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+.searchbox-icon-parent input{
+  width: 500px;
+  height: 40px ;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  padding-left: 15px;
 }
