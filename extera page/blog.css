@@ -2,6 +2,46 @@
   margin: 0;
   padding: 0;
 }
+
+/* navigaton css code start */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1A0F43;
+  padding: 10px 200px;
+  border-bottom: 4px solid #401E63 ;
+  position: sticky;
+  top: 0;
+}
+nav div{
+  color: white;
+  font-size: 25px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style-type: none;
+  margin: 10px 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover{
+  color: red;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* navigaton css code end */
+
 #artical-container{
   width: 1100px;
   margin: 0 auto;
